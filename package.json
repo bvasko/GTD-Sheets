@@ -1,0 +1,22 @@
+{
+  "name": "electron-demo",
+  "version": "1.0.1",
+  "author": "bvasko",
+  "keywords": [
+    "electron"
+  ],
+  "description": "GTD Electron App",
+  "main": "src/main.js",
+  "dependencies": {
+    "react": "^15.4.1"
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron-prebuilt": "^1.4.9",
+    "electron-rebuild": "^1.5.11"
+  },
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w gtd"
+  }
+}
